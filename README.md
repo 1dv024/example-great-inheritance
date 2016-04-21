@@ -7,7 +7,7 @@ Ett exempel med klasser, arv, interface, autoimlementerade egenskaper, anrop av 
 Källkoden har "pedagogiska"(?) kommentarer snarare än dokumenterande kommentarer.
 
 - [Person.cs](GreatInheritance/GreatInheritance/Person.cs)
-- ([Teacher.cs](GreatInheritance/GreatInheritance/Teacher.cs))
 - [Student.cs](GreatInheritance/GreatInheritance/Student.cs)
+- ([Teacher.cs](GreatInheritance/GreatInheritance/Teacher.cs))
 - [Program.cs](GreatInheritance/GreatInheritance/Program.cs)
 
