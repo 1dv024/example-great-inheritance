@@ -28,7 +28,7 @@ namespace GreatInheritance
             students[2] = new Student("Ellen", "Nu", "1001010001", 'G');
             students[3] = new Student("Nisse", "Hult", "5603260123", 'U');
 
-            Array.Sort(students); // Använder CompareTo(object obj)
+            Array.Sort(students);
             foreach (var student in students)
             {
                 // Använder operatorn ?. tillsammans med ?? för att kunna skriva ut
@@ -37,15 +37,16 @@ namespace GreatInheritance
             }
             Console.WriteLine();
 
-
-            var list = new List<Person>();
-
-            list.Add(new Student("Mats", "Loock", "1234567890", 'U'));
-            list.Add(null);
-            list.Add(new Student("Ellen", "Nu", "1001010001", 'G'));
-            list.Add(new Student("Nisse", "Hult", "5603260123", 'U'));
+            var list = new List<Student>
+            {
+                new Student("Mats", "Loock", "1234567890", 'U'),
+                null,
+                new Student("Ellen", "Nu", "1001010001", 'G'),
+                new Student("Nisse", "Hult", "5603260123", 'U')
+            };
 
             list.Sort();
+
             foreach (var item in list)
             {
                 // Använder operatorn ?. tillsammans med ?? för att kunna skriva ut
